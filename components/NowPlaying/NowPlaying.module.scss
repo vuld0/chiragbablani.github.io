@@ -1,0 +1,109 @@
+@import '@styles/mixins.scss';
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  // display: none;
+}
+
+.nowPlaying {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 12px 0;
+  width: 100%;
+
+  @include mobile {
+    padding: 10px 0;
+  }
+
+  .icon {
+    height: 42px;
+    width: 42px;
+
+    @include mobile {
+      height: 28px;
+      width: 28px;
+    }
+  }
+
+  .title {
+    margin-left: 12px;
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .paused {
+    margin: 0 18px;
+
+    width: 100%;
+    justify-content: space-between;
+
+    @include mobile {
+      margin: 0;
+      margin-left: 24px;
+    }
+  }
+}
+
+.notListening {
+  margin-left: 16px;
+  font-size: 20px;
+  list-style: 26px;
+  font-weight: 400;
+}
+
+.currentTrack {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .trackInfo {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+
+    @include mobile {
+      margin-left: 0;
+    }
+  }
+
+  .trackTitle {
+    @include font-size-weight(16, 20, 500);
+    text-align: left;
+    // margin-bottom: 4px;
+
+    color: var(--dark-text-primary);
+    @include line-clamp(1);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .trackArtist {
+    color: var(--dark-text-secondary);
+    @include font-size-weight(12, 14, 300);
+    text-align: left;
+    @include line-clamp(1);
+  }
+}
+
+.track {
+  display: flex;
+  border-radius: var(--border-radius-large);
+  margin: 0 12px;
+  width: 100%;
+  justify-content: space-between;
+
+  @include mobile {
+    margin: 0;
+    margin-left: 24px;
+  }
+}
