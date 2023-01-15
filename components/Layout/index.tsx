@@ -14,7 +14,7 @@ const Layout = (props: LayoutProps) => {
     <div className={styles.container}>
       <Head>
         <title>Chirag Bablani</title>
-        <meta name="description" content="Adarsh's portfolio" />
+        <meta name="description" content="Chirag's portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

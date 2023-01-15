@@ -32,7 +32,7 @@ const TopTracks = () => {
 
   return (
     <div className={styles.topTracksWrapper}>
-      <h2>Adarsh's Top Tracks</h2>
+      <h2>Chirag's Top Tracks</h2>
       <div>
         {tracks.map((track: any, id: number) => (
           <TrackItem track={track} key={id} />
