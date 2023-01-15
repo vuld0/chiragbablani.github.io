@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chiragbablani.github.io/",
+  "homepage": "http://chiragbablani.github.io/pages/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
