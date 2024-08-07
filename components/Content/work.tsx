@@ -4,9 +4,9 @@ import Cognizant from '@icons/Cognizant';
 export const work = [
   {
     company: 'Cognizant',
-    role: 'Junior Software Engineer',
+    role: 'Software Engineer',
     location: 'Bangalore',
-    duration: 'September 2021 - Present',
+    duration: 'September 2021 - Aug 2024',
     shortDuration: `Sept - Present`,
     logo: Cognizant,
     description: [
@@ -24,7 +24,7 @@ export const work = [
     shortDuration: `Aug - Oct '20`,
     logo: Owasp,
     description: [
-      'I developed a module (plugin) for the well-known CMS WordPress under the supervision of International Mentors',
+      'Developed a module (plugin) for the well-known CMS WordPress under the supervision of International Mentors',
       'The module lays out various honey traps to gather information about the attacker and detect bots',
       'Top Features of the plugin: Hidden form field, Failed Login attempts log, and Fake login page.',
       'Technologies used: PHP, ELK, Docker, WordPress, Git'
