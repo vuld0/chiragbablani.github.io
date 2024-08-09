@@ -7,8 +7,7 @@ const Hero = () => {
         <div className={styles.container}>
           <p className={styles.title}>Chirag Bablani</p>
           <p className={styles.about}>
-            I'm a 23-year-old Information Security Enthusiast working as a Junior Software
-            Engineer at{' '}
+            I'm a 24-year-old Information Security Enthusiast currently diving into the world of software engineering as a Software Engineer at {' '}
             <a
               href="https://www.cognizant.com/us/en"
               target="_blank"
